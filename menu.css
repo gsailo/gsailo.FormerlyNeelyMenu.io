@@ -7,7 +7,7 @@ nav {
   height: 100vh;
   border: 1px;
   padding: 1px;
-  background-color: mediumorchid;
+  background-color: #555960;
   text-align: center;
   transform: translateY(-100%);
   transition: transform 0.1s ease;
@@ -30,17 +30,17 @@ nav > ul a {
   font-size: larger;
   padding: 2px;
   margin: 2px;
-  color: green;
+  color: black;
   display: block;
 }
 
 nav > ul a:link {
-  color: green;
+  color: black;
   background-color: beige;
 }
 
 nav > ul a:hover {
-  color: lightgreen;
+  color: #6F727B;
   background-color: lightgoldenrodyellow;
 }
 
@@ -64,7 +64,7 @@ nav > ul a:hover {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   width: 80%;
-  background-color: #dfdfdf;
+  background-color: #C4BFC0;
   color: #000000;
   margin: 20px 0 20px 0;
 }
