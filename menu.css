@@ -1,0 +1,71 @@
+nav {
+  position: absolute;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  width: 30%;
+  height: 100vh;
+  border: 1px;
+  padding: 1px;
+  background-color: mediumorchid;
+  text-align: center;
+  transform: translateY(-100%);
+  transition: transform 0.1s ease;
+}
+
+nav:target {
+  transform: translateY(0);
+}
+
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+nav > ul a {
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: larger;
+  padding: 2px;
+  margin: 2px;
+  color: green;
+  display: block;
+}
+
+nav > ul a:link {
+  color: green;
+  background-color: beige;
+}
+
+nav > ul a:hover {
+  color: lightgreen;
+  background-color: lightgoldenrodyellow;
+}
+
+.twitter-icon {
+  float: left;
+  display: none;
+}
+
+@media screen and (min-width: 700px) {
+  nav {
+    position: static;
+    height: auto;
+    transform: translateY(0);
+    width: 100%;
+  }
+
+  .hamburger, .close{
+    display: none;
+  }
+
+  nav li {
+    display: inline-block;
+  }
+  
+  .twitter-icon {
+    display: inline;
+  }
+}
